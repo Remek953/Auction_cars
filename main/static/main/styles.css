@@ -1,0 +1,48 @@
+
+/*============= NAVIGATION =============*/
+.navbar {
+	font-size: 1.15rem;
+	font-weight: 300;
+	letter-spacing: .1rem;
+	box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+	z-index: 1;
+}
+
+.nav-item {
+	padding: .5rem;
+}
+
+.nav-link {
+	color: #5b5555!important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+	color: #4981b3!important;
+}
+
+#logo_navbar {
+	height:3rem;
+}
+
+#social_logo {
+	width:27px;
+	height:27px;
+  	border: 1px solid #ddd;
+  	border-radius: 4px;
+}
+
+#social_logo:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*============= FOOTER =============*/
+
+footer {
+    bottom: 0;
+}
+
+footer a.text-light:hover {
+    color: #fed136!important;
+    text-decoration: none;
+}
